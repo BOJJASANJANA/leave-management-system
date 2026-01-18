@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1f2937;
+}
+
+.card {
+    background: #ffffff;
+    padding: 30px 35px;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2563eb;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+}
+
+button {
+    width: 100%;
+    padding: 11px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+.link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #2563eb;
+    font-size: 14px;
+}
+
+/* Dashboard styles */
+.dashboard {
+    width: 900px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: center;
+}
+
+th {
+    background-color: #e0f2fe;
+    color: #1e3a8a;
+}
+
+.action a {
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 6px;
+    color: #2563eb;
+}

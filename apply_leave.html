@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Apply Leave</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="card">
+    <h2>Apply Leave</h2>
+
+    <form method="post">
+        <label>Name</label>
+        <input type="text" name="name" required>
+
+        <label>Reason</label>
+        <input type="text" name="reason" required>
+
+        <label>Number of Days</label>
+        <input type="number" name="days" required>
+
+        <button type="submit">Submit Request</button>
+    </form>
+</div>
+
+</body>
+</html>
